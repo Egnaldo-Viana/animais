@@ -233,12 +233,12 @@ body {
   display: block !important;
 }
 
-[data-tab="content"] section.ativo.show-down {
-  animation: show-down 0.5s forwards;
+[data-tab="content"] section.ativo[data-anime="show-right"] {
+  animation: show-right 0.5s forwards;
 }
 
-[data-tab="content"] section.ativo {
-  animation: show-right 0.5s forwards;
+[data-tab="content"] section.ativo[data-anime="show-down"] {
+  animation: show-down 0.5s forwards;
 }
 
 @keyframes show-right {
