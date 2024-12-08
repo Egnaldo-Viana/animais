@@ -17,8 +17,7 @@ export default class ScrollAnima {
     });
   }
 
-  // verifica a distância em cada objeto
-  // em relação ao scroll do site
+  // verifica a distância em cada objeto em relação ao scroll do site
   checkDistance() {
     this.distance.forEach((item) => {
       if (window.scrollY > item.offset) {
